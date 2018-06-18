@@ -9,14 +9,22 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Plone 4 Theme: Darkened"
+      title="plonetheme.darkened"
       directory="profiles/default"
       description="Installs the plonetheme.darkened package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      directory="profiles/uninstall"
+      title="plonetheme.darkened: Uninstall profile for Plone 4 Diazo Theme"
+      description="Uninstall the plonetheme.darkened package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 <!--    <browser:resourceDirectory
-        directory="static" name="plonetheme.coolblue" />-->
+        directory="static" name="plonetheme.darkened" />-->
 
   <include package="plone.resource" file="meta.zcml"/>
   <plone:static directory="static" type="theme" name="plonetheme.darkened" />
