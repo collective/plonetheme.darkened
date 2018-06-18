@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.2 (unreleased)
-------------------
+1.2 (unreleased)
+----------------
 
 - Updated manifest file and added preview file for diazo theme [macagua]
 
@@ -12,6 +12,7 @@ Changelog
 
 1.1 (2011-07-30)
 ----------------
+
 - Fixed doctype [giacomos]
 
 1.0 (2011-06-18)
