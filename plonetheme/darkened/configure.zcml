@@ -18,7 +18,7 @@
   <genericsetup:registerProfile
       name="uninstall"
       directory="profiles/uninstall"
-      title="plonetheme.darkened: Uninstall profile for Plone 4 Diazo Theme"
+      title="plonetheme.darkened Uninstall"
       description="Uninstall the plonetheme.darkened package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
